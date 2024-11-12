@@ -17,13 +17,14 @@
 
 body {
   color: #000;
-  letter-spacing: .3px;
+  font-variation-settings: "wdth" 700, "wght" 400;
+  letter-spacing: 0;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   min-height: 100.1vh;
   padding: 0 20px 20px;
-  font-family: Ll riforma, sans-serif;
+  font-family: "Deepfreezev 18 Vf", Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
@@ -329,6 +330,10 @@ label {
   letter-spacing: .3px;
 }
 
+.body-3 {
+  font-family: Georgia, Times, Times New Roman, serif;
+}
+
 @media screen and (max-width: 991px) {
   .logo:hover {
     color: #000;
@@ -428,6 +433,20 @@ label {
   font-family: 'Axabiovfv 2 Vf';
   src: url('../fonts/AxaBioVFv2VF.ttf') format('truetype');
   font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Deepfreezev 18 Vf';
+  src: url('../fonts/DeepFreezeV18VF.ttf') format('truetype');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Zonderschreefv 5';
+  src: url('../fonts/ZonderSchreefv5-Regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
